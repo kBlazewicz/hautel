@@ -1,0 +1,14 @@
+# config.toml
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "The Happy Paws Hotel"
+
+[params]
+  logo = "/images/logo.png" # Path to your main logo/header image
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1

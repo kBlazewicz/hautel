@@ -1,0 +1,11 @@
+<section id="our-clients" class="section fade-in">
+    <h2 class="section-title">Our Happy Clients</h2>
+    <div class="clients-grid">
+        {{ range sort (where .Site.Pages "Type" "clients") ".Params.client_name" }}
+        <div class="client-testimonial">
+            <img src="{{ .Params.client_photo }}" alt="Photo of {{ .Params.client_name }}" class="client-photo">
+            <h3>{{ .Params.client_name }}</h3>
+            <p>{{ .Params.description | markdownify }}</p>
+        </div>
+        {{ end }}
+    </div>

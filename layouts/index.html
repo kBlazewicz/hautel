@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<section class="hero-banner">
+    <h2 class="hero-text">{{ .Params.hero_text }}</h2>
+</section>
+
+{{ partial "clients-section.html" . }}
+
+{{ partial "hotel-section.html" . }}
+
+{{ end }}

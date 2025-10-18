@@ -1,0 +1,12 @@
+# data/hotel_images.yml
+images:
+  - src: "/images/hotel/hotel-1.png"
+    alt: "Hotel Lobby"
+  - src: "/images/hotel/hotel-2.png"
+    alt: "Spacious Play Area"
+  - src: "/images/hotel/hotel-3.png"
+    alt: "Cozy Dog Suite"
+  - src: "/images/hotel/hotel-4.png"
+    alt: "Grooming Salon"
+  - src: "/images/hotel/hotel-5.png"
+    alt: "Outdoor Garden"

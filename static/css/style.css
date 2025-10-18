@@ -1,0 +1,265 @@
+/* General Body & Typography */
+body {
+    font-family: 'Poppins', sans-serif; /* Use a nice Google Font */
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f8f8f8;
+    scroll-behavior: smooth;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4CAF50; /* A friendly green */
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.site-header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.site-header a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+.site-logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 50%; /* Make it round */
+    border: 3px solid #FFC107; /* A friendly accent color */
+}
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #FFC107;
+}
+
+/* static/css/style.css */
+
+.hero-banner {
+    background-image: url('/images/hotel-background.png'); /* <-- CHANGE THIS LINE */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px; /* You might want to adjust the height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    text-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+.hero-text {
+    font-size: 3rem;
+    margin: 0;
+    background-color: rgba(0,0,0,0.4);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section:nth-child(even) { /* Alternate background for sections */
+    background-color: #e9f5e9;
+}
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title::after { /* Underline effect */
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: #4CAF50;
+    border-radius: 2px;
+}
+
+/* Clients Section */
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.client-testimonial {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.client-testimonial:hover {
+    transform: translateY(-10px);
+}
+.client-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 4px solid #FFC107;
+}
+.client-testimonial h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+.client-testimonial p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Hotel Section */
+.hotel-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    align-items: center;
+    gap: 3rem;
+    text-align: left;
+}
+.hotel-description {
+    flex: 2; /* Takes up more space */
+    min-width: 300px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.hotel-gallery-wrapper {
+    flex: 3; /* Takes up more space */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents items from wrapping */
+    padding-bottom: 15px; /* Space for scrollbar */
+    -webkit-overflow-scrolling: touch; /* Smoother scrolling on iOS */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #FFC107 #e0e0e0; /* Firefox */
+}
+.hotel-gallery-wrapper::-webkit-scrollbar { /* Chrome, Safari, Edge */
+    height: 8px;
+}
+.hotel-gallery-wrapper::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+.hotel-gallery-wrapper::-webkit-scrollbar-thumb {
+    background-color: #FFC107;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+}
+.hotel-gallery {
+    display: inline-flex; /* Lays items out horizontally */
+    gap: 20px;
+    padding-bottom: 10px; /* To prevent scrollbar from covering content */
+}
+.gallery-item {
+    flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
+    width: 300px; /* Fixed width for each item */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+.gallery-item p {
+    padding: 1rem;
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.site-footer h3 {
+    color: #FFC107;
+    margin-bottom: 1.5rem;
+}
+.site-footer p {
+    margin: 0.5rem 0;
+    color: #ccc;
+}
+.site-footer a {
+    color: #FFC107;
+}
+.copyright {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-header h1 {
+        font-size: 2rem;
+    }
+    .hero-text {
+        font-size: 2rem;
+        padding: 0.8rem 1.5rem;
+    }
+    .section {
+        padding: 3rem 1rem;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .clients-grid {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+    .hotel-content {
+        flex-direction: column; /* Stack description and gallery */
+    }
+    .hotel-description, .hotel-gallery-wrapper {
+        width: 100%;
+    }
+    .gallery-item {
+        width: 250px; /* Slightly smaller items for mobile scroll */
+    }
+}
+/* New style for the "Our Hotel" section background */
+#our-hotel {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('/images/hotel-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* This creates a nice parallax effect */
+    border-top: 5px solid #4CAF50;
+    border-bottom: 5px solid #4CAF50;
+}

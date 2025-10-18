@@ -1,0 +1,18 @@
+<section id="our-hotel" class="section fade-in">
+    <h2 class="section-title">Our Hotel</h2>
+    <div class="hotel-content">
+        <div class="hotel-description">
+            {{ .Content }}
+        </div>
+        <div class="hotel-gallery-wrapper">
+            <div class="hotel-gallery">
+                {{ range .Site.Data.hotel_images.images }}
+                <div class="gallery-item">
+                    <img src="{{ .src }}" alt="{{ .alt }}">
+                    <p>{{ .alt }}</p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
