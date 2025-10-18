@@ -3,6 +3,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "The Happy Paws Hotel"
+theme = "ananke" 
 
 [params]
   logo = "/images/logo.png" # Path to your main logo/header image

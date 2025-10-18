@@ -1,0 +1,13 @@
+{{ with .Site.GetPage "/sections/about.md" }}
+<section id="about-me" class="section">
+    <div class="split-layout">
+        <div class="split-image">
+            <img src="{{ .Params.photo }}" alt="Photo of the owner">
+        </div>
+        <div class="split-content">
+            <h2 class="section-title">{{ .Title }}</h2>
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}

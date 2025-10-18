@@ -263,3 +263,58 @@ a:hover {
     border-top: 5px solid #4CAF50;
     border-bottom: 5px solid #4CAF50;
 }
+
+/* -------------------------------------------------- */
+/* New Split Layout Section (for About Me & Physio)
+/* -------------------------------------------------- */
+
+.split-layout {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.split-image {
+    flex: 1; /* Takes up 1 part of the space */
+    min-width: 250px;
+}
+
+.split-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.split-content {
+    flex: 2; /* Takes up 2 parts of the space */
+}
+
+/* Modifier class to reverse the order */
+.split-layout.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Responsive adjustments for the split layout */
+@media (max-width: 768px) {
+    .split-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .split-layout.reverse {
+        flex-direction: column; /* Keep column layout */
+    }
+
+    .split-content .section-title {
+        text-align: center;
+    }
+
+    .split-content .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

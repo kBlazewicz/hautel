@@ -1,0 +1,13 @@
+{{ with .Site.GetPage "/sections/physiotherapy.md" }}
+<section id="physiotherapy" class="section">
+    <div class="split-layout reverse">
+        <div class="split-image">
+            <img src="{{ .Params.photo }}" alt="Dog receiving physiotherapy">
+        </div>
+        <div class="split-content">
+            <h2 class="section-title">{{ .Title }}</h2>
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}

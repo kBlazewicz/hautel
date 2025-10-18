@@ -13,20 +13,6 @@
 
     
     <item>
-      <title>About Our Hotel</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>
-          
-          
-          &lt;p&gt;Founded in 2025, The Happy Paws Hotel was born from a simple idea: a place where dogs would be treated like family. Our founder, Jan Kowalski, wanted to create a stress-free environment that focused on a dog&amp;rsquo;s well-being and happiness.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Max&#39;s Story</title>
       <link>http://localhost:1313/clients/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,6 +25,19 @@
           
           &lt;p&gt;&amp;ldquo;Szczęśliwy Goldenek GOLDI&amp;rdquo;&lt;/p&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Sections</title>
+      <link>http://localhost:1313/sections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/sections/</guid>
+      <description>
+          
+          
+          
       </description>
     </item>
     
