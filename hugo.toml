@@ -2,7 +2,7 @@
 
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "The Happy Paws Hotel"
+title = "Hautel Karniowice"
 theme = "ananke" 
 
 [params]

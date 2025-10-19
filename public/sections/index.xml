@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sections on The Happy Paws Hotel</title>
+    <title>Sections on Hautel Karniowice</title>
     <link>http://localhost:1313/sections/</link>
-    <description>Recent content in Sections on The Happy Paws Hotel</description>
+    <description>Recent content in Sections on Hautel Karniowice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -27,6 +27,50 @@
     </item>
     
     <item>
+      <title>Cennik (Pricing)</title>
+      <link>http://localhost:1313/sections/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/sections/pricing/</guid>
+      <description>
+          
+          
+          &lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Usługa (Service)&lt;/th&gt;
+          &lt;th&gt;Cena (Price)&lt;/th&gt;
+          &lt;th&gt;Opis (Description)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Pobyt Hotelowy (Hotel Stay)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;120 PLN / doba&lt;/td&gt;
+          &lt;td&gt;Komfortowy pokój, 3 spacery dziennie, pełna opieka.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Opieka Dzienna (Daycare)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;80 PLN / dzień&lt;/td&gt;
+          &lt;td&gt;Zabawa w grupie pod okiem opiekuna od 8:00 do 18:00.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Masaż Leczniczy&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;150 PLN / sesja&lt;/td&gt;
+          &lt;td&gt;45-minutowa sesja terapeutyczna z fizjoterapeutą.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Trening Indywidualny&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;100 PLN / godzina&lt;/td&gt;
+          &lt;td&gt;Sesja z behawiorystą, praca nad komendami i posłuszeństwem.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Physiotherapy &amp; Wellness</title>
       <link>http://localhost:1313/sections/physiotherapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,6 +87,28 @@
 &lt;li&gt;Post-operative Rehabilitation&lt;/li&gt;
 &lt;li&gt;Strength &amp;amp; Conditioning Exercises&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Warunki Pobytu (Terms of Stay)</title>
+      <link>http://localhost:1313/sections/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/sections/terms/</guid>
+      <description>
+          
+          
+          &lt;p&gt;Prosimy o zapoznanie się z poniższymi warunkami, aby zapewnić bezpieczeństwo i komfort wszystkim naszym gościom.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Aktualne Szczepienia&lt;/strong&gt;: Każdy pies musi posiadać książeczkę zdrowia z udokumentowanymi aktualnymi szczepieniami przeciwko wściekliźnie i chorobom zakaźnym.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ochrona Przeciw Kleszczom&lt;/strong&gt;: Wymagane jest zabezpieczenie psa przeciwko pchłom i kleszczom.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Własna Karma&lt;/strong&gt;: W celu uniknięcia problemów żołądkowych, prosimy o dostarczenie własnej karmy dla psa na czas pobytu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rzeczy Osobiste&lt;/strong&gt;: Pies może zabrać ze sobą swoje ulubione legowisko lub zabawkę, aby czuć się bardziej komfortowo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rezerwacja&lt;/strong&gt;: Rezerwacji należy dokonać z co najmniej 7-dniowym wyprzedzeniem. Wymagana jest wpłata zadatku w wysokości 30%.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Pełny regulamin pobytu dostępny jest na &lt;a href=&#34;http://localhost:1313/regulamin/&#34;&gt;tej stronie&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
       </description>
     </item>

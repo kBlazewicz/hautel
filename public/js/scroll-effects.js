@@ -38,3 +38,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+const header = document.querySelector('.site-header');
+if (header) {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 10) { // Add shadow after scrolling down 10px
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+}

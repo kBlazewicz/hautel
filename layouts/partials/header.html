@@ -1,6 +1,22 @@
 <header class="site-header">
-    <a href="/">
-        <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }} Logo" class="site-logo">
-        <h1>{{ .Site.Title }}</h1>
-    </a>
+    <div class="header-top-bar">
+        <div class="contact-info">
+            <span>📞 +48 123 456 789</span>
+            <span>📍 Kraków, Poland</span>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <ul href="/" class="logo-link">
+           <img src="{{ .Site.Params.logo }}" class="site-logo">
+          <span class="site-title">{{ .Site.Title }}</span>
+        </ul>
+        <ul class="nav-menu">
+            <li><a href="#our-hotel">Our Hotel</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#physiotherapy">Services</a></li>
+            <li><a href="#our-clients">Clients</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#terms">Terms</a></li>
+        </ul>
+    </nav>
 </header>

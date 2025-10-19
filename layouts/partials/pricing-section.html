@@ -1,0 +1,8 @@
+{{ with .Site.GetPage "/sections/pricing.md" }}
+<section id="pricing" class="section">
+    <h2 class="section-title">{{ .Title }}</h2>
+    <div class="pricing-table">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
