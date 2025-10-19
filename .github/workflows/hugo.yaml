@@ -48,8 +48,8 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          run: |  # <-- This is wrong, 'run' cannot be inside 'env'
-            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: |  # <-- This is wrong, 'run' cannot be inside 'env'
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
