@@ -1,6 +1,6 @@
 # config.toml
 
-baseURL = "https://kBlazewicz.github.io/hautel/" # <-- THIS IS THE FIX
+baseURL = "https://kblazewicz.github.io/hautel/" # <-- THIS IS THE FIX
 languageCode = "en-us"
 title = "Hautel Karniowice"
 theme = "ananke" 
