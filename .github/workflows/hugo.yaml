@@ -45,9 +45,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Hugo
-        # This step is now simplified. It will use the baseURL from your config.toml
-        run: |
-          hugo --minify
+          env:
+            HUGO_ENVIRONMENT: production
+            HUGO_ENV: production
+          run: |
+            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Max&#39;s Story on Hautel Karniowice</title>
-    <link>http://localhost:1313/clients/</link>
+    <link>https://kBlazewicz.github.io/hautel/clients/</link>
     <description>Recent content in Max&#39;s Story on Hautel Karniowice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -9,19 +9,19 @@
     
     
     
-    <atom:link href="http://localhost:1313/clients/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kBlazewicz.github.io/hautel/clients/index.xml" rel="self" type="application/rss+xml" />
 
     
     <item>
       <title>Historia Goldiego</title>
-      <link>http://localhost:1313/clients/client-2/</link>
+      <link>https://kBlazewicz.github.io/hautel/clients/client-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/clients/client-2/</guid>
+      <guid>https://kBlazewicz.github.io/hautel/clients/client-2/</guid>
       <description>
           
           
-            &lt;img src="http://localhost:1313/images/clients/client-1.png" alt="Client Photo"&gt;&lt;br&gt;
+            &lt;img src="https://kBlazewicz.github.io/images/clients/client-1.png" alt="Client Photo"&gt;&lt;br&gt;
           
           
       </description>
@@ -29,14 +29,14 @@
     
     <item>
       <title>Max&#39;s Story</title>
-      <link>http://localhost:1313/clients/client-1/</link>
+      <link>https://kBlazewicz.github.io/hautel/clients/client-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/clients/client-1/</guid>
+      <guid>https://kBlazewicz.github.io/hautel/clients/client-1/</guid>
       <description>
           
           
-            &lt;img src="http://localhost:1313/images/clients/client-2.png" alt="Client Photo"&gt;&lt;br&gt;
+            &lt;img src="https://kBlazewicz.github.io/images/clients/client-2.png" alt="Client Photo"&gt;&lt;br&gt;
           
           &lt;p&gt;&amp;ldquo;Szczęśliwy Goldenek GOLDI&amp;rdquo;&lt;/p&gt;
 

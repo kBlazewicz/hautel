@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Hautel Karniowice</title>
-    <link>http://localhost:1313/sections/</link>
+    <link>https://kBlazewicz.github.io/hautel/sections/</link>
     <description>Recent content in Sections on Hautel Karniowice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -9,15 +9,15 @@
     
     
     
-    <atom:link href="http://localhost:1313/sections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kBlazewicz.github.io/hautel/sections/index.xml" rel="self" type="application/rss+xml" />
 
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/sections/about/</link>
+      <link>https://kBlazewicz.github.io/hautel/sections/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/sections/about/</guid>
+      <guid>https://kBlazewicz.github.io/hautel/sections/about/</guid>
       <description>
           
           
@@ -28,10 +28,10 @@
     
     <item>
       <title>Cennik (Pricing)</title>
-      <link>http://localhost:1313/sections/pricing/</link>
+      <link>https://kBlazewicz.github.io/hautel/sections/pricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/sections/pricing/</guid>
+      <guid>https://kBlazewicz.github.io/hautel/sections/pricing/</guid>
       <description>
           
           
@@ -72,10 +72,10 @@
     
     <item>
       <title>Physiotherapy &amp; Wellness</title>
-      <link>http://localhost:1313/sections/physiotherapy/</link>
+      <link>https://kBlazewicz.github.io/hautel/sections/physiotherapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/sections/physiotherapy/</guid>
+      <guid>https://kBlazewicz.github.io/hautel/sections/physiotherapy/</guid>
       <description>
           
           
@@ -93,10 +93,10 @@
     
     <item>
       <title>Warunki Pobytu (Terms of Stay)</title>
-      <link>http://localhost:1313/sections/terms/</link>
+      <link>https://kBlazewicz.github.io/hautel/sections/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/sections/terms/</guid>
+      <guid>https://kBlazewicz.github.io/hautel/sections/terms/</guid>
       <description>
           
           
@@ -108,7 +108,7 @@
 &lt;li&gt;&lt;strong&gt;Rzeczy Osobiste&lt;/strong&gt;: Pies może zabrać ze sobą swoje ulubione legowisko lub zabawkę, aby czuć się bardziej komfortowo.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Rezerwacja&lt;/strong&gt;: Rezerwacji należy dokonać z co najmniej 7-dniowym wyprzedzeniem. Wymagana jest wpłata zadatku w wysokości 30%.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Pełny regulamin pobytu dostępny jest na &lt;a href=&#34;http://localhost:1313/regulamin/&#34;&gt;tej stronie&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pełny regulamin pobytu dostępny jest na &lt;a href=&#34;https://kBlazewicz.github.io/hautel/regulamin/&#34;&gt;tej stronie&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
       </description>
     </item>
