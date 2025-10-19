@@ -11,12 +11,12 @@
           <span class="site-title">{{ .Site.Title }}</span>
         </ul>
         <ul class="nav-menu">
-            <li><a href="#our-hotel">Our Hotel</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#physiotherapy">Services</a></li>
-            <li><a href="#our-clients">Clients</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#terms">Terms</a></li>
-        </ul>
+            <li><a href="{{ if not .IsHome }}/{{ end }}#our-hotel">Our Hotel</a></li>
+            <li><a href="{{ if not .IsHome }}/{{ end }}#about-me">About</a></li>
+            <li><a href="{{ if not .IsHome }}/{{ end }}#physiotherapy">Services</a></li>
+            <li><a href="{{ if not .IsHome }}/{{ end }}#our-clients">Clients</a></li>
+            <li><a href="{{ if not .IsHome }}/{{ end }}#pricing">Pricing</a></li>
+            <li><a href="{{ if not .IsHome }}/{{ end }}#terms">Terms</a></li>
+        </ul>   
     </nav>
 </header>
