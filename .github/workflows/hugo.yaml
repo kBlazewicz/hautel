@@ -44,11 +44,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with Hugo
-          env:
-            HUGO_ENVIRONMENT: production
-            HUGO_ENV: production
-          run: |
+      - name: Build with Hugo 
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          run: |  # <-- This is wrong, 'run' cannot be inside 'env'
             hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
