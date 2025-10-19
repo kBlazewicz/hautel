@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hautel Karniowice</title>
-    <link>https://kBlazewicz.github.io/hautel/categories/</link>
+    <link>https://kblazewicz.github.io/hautel/categories/</link>
     <description>Recent content in Categories on Hautel Karniowice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -9,7 +9,7 @@
     
     
     
-    <atom:link href="https://kBlazewicz.github.io/hautel/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kblazewicz.github.io/hautel/categories/index.xml" rel="self" type="application/rss+xml" />
 
     
 

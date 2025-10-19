@@ -1,0 +1,583 @@
+/* General Body & Typography */
+body {
+    font-family: 'Poppins', sans-serif; /* Use a nice Google Font */
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f8f8f8;
+    scroll-behavior: smooth;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4CAF50; /* A friendly green */
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.site-header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.site-header a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+.site-logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #2e9f91; /* A friendly accent color */
+}
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #1996e3;
+}
+
+/* static/css/style.css */
+
+.hero-banner {
+    background-image: url('/images/hotel-background.png'); /* <-- CHANGE THIS LINE */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 15rem; /* You might want to adjust the height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    text-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+.hero-text {
+    font-size: 3rem;
+    margin: 0;
+    background-color: rgba(0,0,0,0.4);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section:nth-child(even) { /* Alternate background for sections */
+    background-color: #e9f5e9;
+}
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title::after { /* Underline effect */
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: #4CAF50;
+    border-radius: 2px;
+}
+
+/* Clients Section */
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.client-testimonial {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.client-testimonial:hover {
+    transform: translateY(-10px);
+}
+.client-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 4px solid #FFC107;
+}
+.client-testimonial h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+.client-testimonial p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Hotel Section */
+.hotel-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    align-items: center;
+    gap: 3rem;
+    text-align: left;
+}
+.hotel-description {
+    flex: 2; /* Takes up more space */
+    min-width: 300px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.hotel-gallery-wrapper {
+    flex: 3; /* Takes up more space */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents items from wrapping */
+    padding-bottom: 15px; /* Space for scrollbar */
+    -webkit-overflow-scrolling: touch; /* Smoother scrolling on iOS */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #FFC107 #e0e0e0; /* Firefox */
+}
+.hotel-gallery-wrapper::-webkit-scrollbar { /* Chrome, Safari, Edge */
+    height: 8px;
+}
+.hotel-gallery-wrapper::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+.hotel-gallery-wrapper::-webkit-scrollbar-thumb {
+    background-color: #FFC107;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+}
+.hotel-gallery {
+    display: inline-flex; /* Lays items out horizontally */
+    gap: 20px;
+    padding-bottom: 10px; /* To prevent scrollbar from covering content */
+}
+.gallery-item {
+    flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
+    width: 300px; /* Fixed width for each item */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+.gallery-item p {
+    padding: 1rem;
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.site-footer h3 {
+    color: #FFC107;
+    margin-bottom: 1.5rem;
+}
+.site-footer p {
+    margin: 0.5rem 0;
+    color: #ccc;
+}
+.site-footer a {
+    color: #FFC107;
+}
+.copyright {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-header h1 {
+        font-size: 2rem;
+    }
+    .hero-text {
+        font-size: 2rem;
+        padding: 0.8rem 1.5rem;
+    }
+    .section {
+        padding: 3rem 1rem;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .clients-grid {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+    .hotel-content {
+        flex-direction: column; /* Stack description and gallery */
+    }
+    .hotel-description, .hotel-gallery-wrapper {
+        width: 100%;
+    }
+    .gallery-item {
+        width: 250px; /* Slightly smaller items for mobile scroll */
+    }
+}
+/* New style for the "Our Hotel" section background */
+#our-hotel {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('/images/hotel-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* This creates a nice parallax effect */
+    border-top: 5px solid #4CAF50;
+    border-bottom: 5px solid #4CAF50;
+}
+
+/* -------------------------------------------------- */
+/* New Split Layout Section (for About Me & Physio)
+/* -------------------------------------------------- */
+
+.split-layout {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.split-image {
+    flex: 1; /* Takes up 1 part of the space */
+    min-width: 250px;
+}
+
+.split-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.split-content {
+    flex: 2; /* Takes up 2 parts of the space */
+}
+
+/* Modifier class to reverse the order */
+.split-layout.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Responsive adjustments for the split layout */
+@media (max-width: 768px) {
+    .split-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .split-layout.reverse {
+        flex-direction: column; /* Keep column layout */
+    }
+
+    .split-content .section-title {
+        text-align: center;
+    }
+
+    .split-content .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* -------------------------------------------------- */
+/* NEW - Modern Site Header (Thinner Version)
+/* -------------------------------------------------- */
+
+/* ----- Main Header Container ----- */
+.site-header {
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease;
+}
+
+.site-header.scrolled {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* ----- Top Bar for Contact Info ----- */
+.header-top-bar {
+    /* REMOVED most padding to make it very thin */
+    background-color: #333;
+    color: #eee;
+    text-align: right;
+    font-size: 0.8rem;   /* REDUCED FONT SIZE */
+}
+
+.header-top-bar .contact-info span {
+    margin-left: 0.0rem;
+}
+
+
+/* ----- Main Navigation Bar ----- */
+/* ----- Main Navigation Bar ----- */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.1rem;    /* REDUCED PADDING */
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100px;         /* SETS a fixed minimum height */
+    box-sizing: border-box;   /* Ensures padding is included in the height */
+}
+
+/* ----- Logo and Site Title Styling ----- */
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.site-logo {
+    height: 55px;             /* REDUCED LOGO SIZE */
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid #FFC107;
+    margin-right: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.logo-link:hover .site-logo {
+    transform: rotate(15deg);
+}
+
+.site-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;        /* REDUCED FONT SIZE */
+    font-weight: 700;
+    color: #333;
+}
+
+.logo-link:hover .site-logo {
+    transform: rotate(15deg);
+}
+
+.site-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;    /* REDUCED FONT SIZE */
+    font-weight: 700;
+    color: #333;
+}
+
+
+/* ----- Navigation Menu Links ----- */
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;      /* REDUCED FONT SIZE */
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+}
+
+
+/* ----- Responsive Adjustments for Header ----- */
+@media (max-width: 768px) {
+    .site-title {
+        display: none;
+    }
+    .nav-menu {
+        gap: 0rem;
+    }
+    .nav-menu a {
+        font-size: 0.9rem; /* REDUCED FONT SIZE */
+    }
+    .header-top-bar {
+        text-align: center;
+    }
+    .main-nav {
+        padding: 0.1rem 1rem; /* REDUCED PADDING */
+    }
+}
+
+/* -------------------------------------------------- */
+/* New Pricing & Terms Sections
+/* -------------------------------------------------- */
+
+/* ----- Pricing Table ----- */
+.pricing-table {
+    max-width: 900px;
+    margin: 2rem auto 0;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.pricing-table th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.pricing-table tr:hover {
+    background-color: #e9f5e9; /* Light green hover */
+}
+
+
+/* ----- Terms of Stay Section ----- */
+#terms {
+    background-color: #f4f4f4; /* A slightly different background */
+    text-align: left;
+}
+
+.terms-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terms-content ol {
+    list-style: none;
+    counter-reset: terms-counter;
+    padding-left: 0;
+}
+
+.terms-content ol li {
+    counter-increment: terms-counter;
+    margin-bottom: 1.5rem;
+    padding-left: 3rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+/* Custom styled numbers for the list */
+.terms-content ol li::before {
+    content: counter(terms-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFC107; /* Accent yellow */
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+}
+
+html {
+    scroll-padding-top: 30px; 
+    scroll-behavior: smooth;
+}
+
+
+/* Dodać liczby! */
+
+/* -------------------------------------------------- */
+/* Styling for Single Pages (e.g., Full Terms)
+/* -------------------------------------------------- */
+
+.page-content {
+    max-width: 800px;
+    margin: 4rem auto; /* Add space top/bottom */
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10
+}
+
+/* ----- Responsive Adjustments for Header ----- */
+@media (max-width: 768px) {
+    .site-title {
+        display: none;
+    }
+
+    /* HIDE THE NAVIGATION MENU ON MOBILE */
+    .nav-menu {
+        display: none;
+    }
+
+    .header-top-bar {
+        text-align: center;
+    }
+
+    .main-nav {
+        padding: 0.2rem 1rem;
+        /* CENTER THE LOGO now that the menu is hidden */
+        justify-content: center;
+    }
+}
